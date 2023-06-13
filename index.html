@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    <title>CheatSheet</title>
+  </head>
+  <body>
+      <nav>
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#html">HTML</a></li>
+          <li><a href="#css">CSS</a></li>
+          <li><a href="#footer">Footer</a></li>
+        </ul>
+      </nav>
+    <div class="banner">
+      <h1>Cheat Sheet</h1>
+      <h2>By G. Ángel Martínez</h2>
+    </div>
+    <main>
+      <div class="introduction">
+        <h2 id="introduction" class="title">Introduction</h2>
+        <p>
+          Esta es una hoja de referencia para HTML y CSS. Es una compilación de
+          las etiquetas y propiedades más comunes utilizadas en el desarrollo
+          web.
+        </p>
+      </div>
+      <div class="html">
+        <h2 id="html" class="title">HTML</h2>
+        <h3 class="subtitle">Estructura Básica</h3>
+        <p>
+          HTML es un lenguaje de marcado que se compone de etiquetas. La
+          estructura básica de un documento HTML incluye las etiquetas
+          &lt;html>, &lt;head> y &lt;body>. La etiqueta &lt;html>
+          envuelve todo el contenido del documento, &lt;head> contiene
+          metadatos y enlaces a archivos externos, y &lt;body> contiene el
+          contenido visible en el navegador.
+        </p>
+        <h3 class="subtitle">Etiquetas de encabezado</h3>
+        <p>
+          Las etiquetas de encabezado se utilizan para definir los encabezados
+          de una página. Hay seis niveles de encabezado, que van desde
+          &lt;h1> hasta &lt;h6>. &lt;h1> es el encabezado más grande y
+          &lt;h6> es el más pequeño.
+        </p>
+        <h3 class="subtitle">Paragráfos y saltos de línea</h3>
+        <p>
+          Las etiquetas &lt;p> se utilizan para definir párrafos. Las
+          etiquetas &lt;br> se utilizan para crear saltos de línea dentro de
+          un párrafo.
+        </p>
+        <h3 class="subtitle">Enlaces</h3>
+        <p>
+          Las etiquetas &lt;a> se utilizan para crear enlaces. El atributo
+          href se utiliza para definir la URL a la que se enlaza. El atributo
+          target se utiliza para definir si el enlace se abre en una nueva
+          ventana o en la misma ventana.
+        </p>
+        <h3 class="subtitle">Listas ordenadas y no ordenadas</h3>
+        <p>
+          Las etiquetas &lt;ul> se utilizan para crear listas no ordenadas.
+          Las etiquetas &lt;ol> se utilizan para crear listas ordenadas. Las
+          etiquetas &lt;li> se utilizan para definir los elementos de la
+          lista.
+        </p>
+        <h3 class="subtitle">Imágenes</h3>
+        <p>
+          Las etiquetas &lt;img> se utilizan para insertar imágenes. El
+          atributo src se utiliza para definir la URL de la imagen. El atributo
+          alt se utiliza para definir el texto alternativo de la imagen, que se
+          utiliza para describir la imagen cuando no se puede mostrar.
+        </p>
+        <h3 class="subtitle">Tablas</h3>
+        <p>
+          Las etiquetas &lt;table> se utilizan para crear tablas. Las
+          etiquetas &lt;tr> se utilizan para definir las filas de la tabla.
+          Las etiquetas &lt;td> se utilizan para definir las celdas de la
+          tabla. Las etiquetas &lt;th> se utilizan para definir las celdas de
+          encabezado de la tabla.
+        </p>
+        <h3 class="subtitle">Formularios</h3>
+        <p>
+          Las etiquetas &lt;form> se utilizan para crear formularios. El
+          atributo action se utiliza para definir la URL a la que se envían los
+          datos del formulario. El atributo method se utiliza para definir el
+          método de envío de los datos del formulario. Los métodos GET y POST
+          son los más utilizados.
+        </p>
+        <h3 class="subtitle">Etiquetas semánticas</h3>
+        <p>
+          Las etiquetas semánticas se utilizan para definir el significado de
+          los elementos de una página. Las etiquetas semánticas incluyen
+          &lt;header>, &lt;nav>, &lt;main>, &lt;section>,
+          &lt;article>, &lt;aside> y &lt;footer>.
+        </p>
+        <h3 class="subtitle">Resumen de las etiquetas</h3>
+        <table class="summary-table">
+          <thead>
+            <tr>
+              <th>Etiqueta</th>
+              <th>Nombre</th>
+              <th>Descripción</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">&lt;html></th>
+              <td>HTML</td>
+              <td>La raíz de un documento HTML.</td>
+            </tr>
+            <tr>
+              <td scope="row">&lt;head></td>
+              <td>Encabezado</td>
+              <td>Contiene información meta sobre el documento HTML.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;body></th>
+              <td>Cuerpo</td>
+              <td>Contiene el contenido visible del documento HTML.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;div></th>
+              <td>Division</td>
+              <td>
+                Un contenedor genérico utilizado para agrupar otros elementos y
+                aplicar estilos o estructura.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;p></th>
+              <td>Párrafo</td>
+              <td>Define un párrafo de texto.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;a></th>
+              <td>Enlace</td>
+              <td>Define un enlace a una página web o a un archivo.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;img></th>
+              <td>Imagen</td>
+              <td>Muestra una imagen dentro del documento.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;ul></th>
+              <td>Lista no ordenada</td>
+              <td>Define una lista no ordenada.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;ol></th>
+              <td>Lista ordenada</td>
+              <td>
+                Define una lista ordenada con un orden numérico o alfabético.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;li></th>
+              <td>Elemento de lista</td>
+              <td>Define un elemento de una lista.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;table></th>
+              <td>Tabla</td>
+              <td>Crea una tabla para mostrar datos en filas y columnas.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;tr></th>
+              <td>Fila</td>
+              <td>Representa una fila en una tabla.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;th></th>
+              <td>Celda de encabezado</td>
+              <td>Representa un encabezado de columna o fila en una tabla.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;td></th>
+              <td>Celda de datos</td>
+              <td>Representa una celda de datos en una tabla.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;form></th>
+              <td>Formulario</td>
+              <td>Define un formulario para la entrada del usuario.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;input></th>
+              <td>Entrada</td>
+              <td>Define un campo de entrada para la entrada del usuario.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;button></th>
+              <td>Botón</td>
+              <td>Crea un botón interactivo.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;span></th>
+              <td>Span</td>
+              <td>
+                Un contenedor genérico utilizado para agrupar otros elementos y
+                aplicar estilos o estructura.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;h1> - &lt;h6></th>
+              <td>Encabezado</td>
+              <td>Define un encabezado de nivel 1 al 6.</td>
+            </tr>
+            <tr>
+              <th scope="row">&lt;!-- --></td>
+              <td>Comentario</td>
+              <td>
+                Define un comentario en el código HTML que no se muestra en la
+                página.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="CSS">
+        <h2 id="css" class="title">CSS</h2>
+        <p>
+          CSS es el lenguaje de hojas de estilo utilizado para dar estilo a la
+          presentación de documentos HTML. CSS describe cómo se deben mostrar
+          los elementos HTML.
+        </p>
+        <h3 class="subtitle">Selectores</h3>
+        <p>
+          Los selectores CSS se utilizan para seleccionar los elementos HTML a
+          los que se aplicarán los estilos. Los selectores CSS se pueden
+          agrupar, anidar y combinar.
+        </p>
+        <h3 class="subtitle">Propiedades</h3>
+        <p>
+          Las propiedades CSS se utilizan para definir los estilos de los
+          elementos HTML. Las propiedades CSS se pueden agrupar, anidar y
+          combinar.
+        </p>
+        <h3 class="subtitle">Valores</h3>
+        <p>
+          Los valores CSS se utilizan para definir los valores de las
+          propiedades CSS. Los valores CSS se pueden agrupar, anidar y combinar.
+        </p>
+        <h3 class="subtitle">Resumen de las propiedades</h3>
+        <table class="summary-table">
+          <thead>
+            <tr>
+              <th>Propiedad</th>
+              <th>Descripción</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">background-color</th>
+              <td>Define el color de fondo de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">color</th>
+              <td>Define el color del texto de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">font-family</th>
+              <td>Define la familia de fuentes de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">font-size</th>
+              <td>Define el tamaño de fuente de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">font-style</th>
+              <td>Define el estilo de fuente de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">font-weight</th>
+              <td>Define el grosor de fuente de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">height</th>
+              <td>Define la altura de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">width</th>
+              <td>Define el ancho de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">margin</th>
+              <td>Define el margen de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">margin-bottom</th>
+              <td>Define el margen inferior de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">margin-left</th>
+              <td>Define el margen izquierdo de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">margin-right</th>
+              <td>Define el margen derecho de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">margin-top</th>
+              <td>Define el margen superior de un elemento.</td>
+            </tr>
+            <tr>
+              <th scope="row">padding</th>
+              <td>Define el relleno de un elemento.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <footer id="footer">
+      <p>Todos los derechos reservados</p>
+      <p>Para más información buscar en:</p>
+      <p>
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank"
+          >HTML</a
+        >
+        -
+        <a href="https://www.w3schools.com/css/default.asp" target="_blank"
+          >CSS</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
